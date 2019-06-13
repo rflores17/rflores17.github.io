@@ -1,0 +1,117 @@
+<style>
+			.myClass {
+				color:white;
+				background-color:black;
+				padding: 20px;
+				text-align: center;
+				margin: 10px;
+				width:50px;
+				}
+	
+body{
+	background-color: #dce0e8;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height:100%
+	
+}	
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-attachment: fixed;
+	
+}	
+
+/* SOCIAL MEDIA ICONS CSS*/
+.fa{
+	padding: 5px;
+	font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 0px 0px; 0px;
+    float: right;
+}
+
+.fa:hover{
+	opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/*END OF SOCIAL MEDIA ICONS*/
+
+/*START OF MAP*/
+#map{
+	height: 400px;
+	width: 200px;
+}
+/*END OF MAP*/	
+		
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+		</style>
