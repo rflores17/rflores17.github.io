@@ -1,37 +1,134 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-You can use the [editor on GitHub](https://github.com/rflores17/rflores17.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		<style>
+		
+			body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+}
 
-### Markdown
+.hero-image {
+  background-image: url("technology.jpeg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-```markdown
-Syntax highlighted code block
+.navbar{
+		width: 100%;
+		overflow: auto;
+	}
+	
+	a{
+		 float: left;
+  		 width: 20%;
+  		 text-align: center;
+  		 padding: 12px 0;
+  		 transition: all 0.3s ease;
+  		 color: blue;
+  		 font-size: 26px;
+	}
+	
+	a:hover{
+			background-color: silver;
+	}
+	
+	.info{
+		width: 300px;
+		height: 300px;
+		padding: 1px;
+		margin: 1px;
+		border: 1px solid black;
+		float: left;
+	}
+	
+	footer {
+  			position:fixed;
+  			right: 0;
+  			bottom: 0;
+  			left: 0;
+  			padding: 1rem;
+  			background-color: #1f66e0;
+  			
+	}
+	
+	.quicklinks{
+		color: #ffffff;
+		font-size: 16px;
+		text-align: left;
+		transition: all 0.3s ease;
+		position: relative;
+	}
+	
+	.rights{
+		font-size:12px;
+		color:#ffffff;
+		text-align:left;
+		
+	}
+	
+		</style>
+		<title>
+			my personal website
+		</title>
+	</head>
+	<body>
+		<div class="navbar">
+			<a class="active" href="about.html" target="_blank">About Me</i></a> 
+			<a class="active" href="menu.html" target="_blank">Services</i></a> 
+  			<a class="active" href="#">Useful Links</i></a> 
+ 			<a class="active" href="orderonline.html">Reviews</i></a>
+  		</div>
 
-# Header 1
-## Header 2
-### Header 3
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Rosa Flores Personal Website</h1>
+    <h3>Welcome to my page, hope you enjoy it!</h3>
+    <button>Come visit us!</button>
+  </div>
+</div>
 
-- Bulleted
-- List
+		
+	</body>
+	
+	<footer>
+	<p style="color:white;">Quick Links</p><br>
+	<a class="quicklinks" href="about.html" target="_blank">About Me</a>
+	<a class="quicklinks" href="Services.html" target="_blank">Services</a>
+	<a class="quicklinks" href="UsefulLinks.html" target="_blank">Useful Links</a>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rflores17/rflores17.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+		<!-- SOCIAL MEDIA ICONS ROSA F -->
+   <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+   <a href="https://twitter.com/login" target="_blank" class="fa fa-twitter"></a>
+   <a href="https://www.google.com/" target="_blank" class="fa fa-google"></a>
+   <a href="https://www.linkedin.com/feed/" target="_blank" class="fa fa-linkedin"></a>
+   <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+   <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+   </br>
+   <div class="rights">
+   &copy; 2019; Rosa Flores All Rights Reserved
+   </div>
+	</footer>
+</html>
