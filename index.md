@@ -1,14 +1,14 @@
-<!doctype html>
+
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
 	
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-		<style>
+<style>
 		
-			body {
+body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
@@ -109,13 +109,13 @@
 </div>
 
 		
-	</body>
+</body>
 	
-	<footer>
-	<p style="color:white;">Quick Links</p><br>
-	<a class="quicklinks" href="about.html" target="_blank">About Me</a>
-	<a class="quicklinks" href="Services.html" target="_blank">Services</a>
-	<a class="quicklinks" href="UsefulLinks.html" target="_blank">Useful Links</a>
+<footer>
+<p style="color:white;">Quick Links</p><br>
+<a class="quicklinks" href="about.html" target="_blank">About Me</a>
+<a class="quicklinks" href="Services.html" target="_blank">Services</a>
+<a class="quicklinks" href="UsefulLinks.html" target="_blank">Useful Links</a>
 
 
 
@@ -127,8 +127,10 @@
    <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
    <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
    </br>
+   
+   
    <div class="rights">
    &copy; 2019; Rosa Flores All Rights Reserved
    </div>
-	</footer>
+  </footer>
 </html>
