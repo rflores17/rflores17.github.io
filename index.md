@@ -94,10 +94,10 @@ body {
 	</head>
 	<body>
 		<div class="navbar">
-			<a class="active" href="about.html" target="_blank">About Me</i></a> 
-			<a class="active" href="menu.html" target="_blank">Services</i></a> 
-  			<a class="active" href="#">Useful Links</i></a> 
- 			<a class="active" href="orderonline.html">Reviews</i></a>
+			<a class="active" href="about.html" target="_blank">About Me</a> 
+			<a class="active" href="menu.html" target="_blank">Services</a> 
+  			<a class="active" href="#">Useful Links</a> 
+ 			<a class="active" href="orderonline.html">Reviews</a>
   		</div>
 
 <div class="hero-image">
